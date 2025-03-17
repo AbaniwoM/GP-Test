@@ -66,9 +66,9 @@ const AdminSidebar = () => {
                 <CgLogOut />
                 <span className='text-sm font-light'>Logout</span>
             </NavLink>
-            <div className='bg-gradient-to-r from-violet-800 to-violet-800 rounded-md py-3 xl:py-5 mx-3 xl:mx-1 lg:w-[90%] mt-[10rem]'>
+            <div className='bg-gradient-to-r from-violet-800 to-violet-800 rounded-md py-3 xl:py-5 mx-3 sm:gap-0  xl:mx-1 lg:w-[90%] mt-[10rem]'>
                 <div className="flex gap-1 justify-center">
-                <div className=''>
+                <div className='flex flex-col'>
                     <div className='font-light text-sm xl:text-[0.7rem] lg:text-[0.5rem]'>Storage</div>
                     <div className='flex gap-1 text-[0.6rem] xl:text-[0.6rem] lg:text-[0.5rem]'>3.4GB<div className="text-[0.6rem] lg:text-[0.5rem] text-gray-400 font-light">of 15GB</div></div>
                 </div>

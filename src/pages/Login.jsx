@@ -33,11 +33,14 @@ const Login = () => {
 
   return (
     <div className="flex flex-col items-center h-screen justify-center bg-gradient-to-r from-blue-900 to-blue-900 space-y-6">
-        <div className='border shadow p-6 w-[30%] lg:w-[46%] sm:w-[58%] md:w-[58%] bg-white rounded-md'>
+        <div className='border shadow p-6 w-[30%] lg:w-[46%] sm:w-[80%] md:w-[58%] bg-white rounded-md'>
         <h2 className='hidden md:flex md:text-lg md:font-medium md:mb-4 md:justify-center sm:flex sm:justify-center sm:font-normal sm:text-md'>Login</h2>
         {/* {error && <p className="text-red-500">{error}</p>} */}
         <form>
-            <div className="flex justify-center text-xs gap-1 mt-4 mb-7">Don't have an account yet? <div className="text-blue-900 font-medium">Create an account</div></div>
+            <div className="flex sm:flex-col sm:text-center justify-center text-xs gap-1 mt-4 mb-7">
+                <div>Don't have an account yet?</div> 
+                <div className="text-blue-900 font-medium">Create an account</div>
+            </div>
             <button className="border flex justify-center w-full py-2 rounded-sm text-sm mb-5 cursor-pointer">
                 <div><img src={googleImg} className="w-7"/></div>
                 <div className="py-1">Sign up with Google</div>

@@ -9,7 +9,6 @@ import profileEight from "../../assets/girl.png"
 import { IoMdNotificationsOutline, IoIosArrowForward } from "react-icons/io";
 import { MdOutlineEdit } from "react-icons/md";
 import { TbChartDonut4 } from "react-icons/tb";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { CiSearch } from "react-icons/ci";
 import Hamburger from "./Hamburger";
 
@@ -17,7 +16,7 @@ import Hamburger from "./Hamburger";
 const AdminSummary = () => {
   return (
     <div className='pt-6 pl-6 md:pt-0 md:pl-0 sm:pt-0 sm:pl-0'>
-        <div className='hidden sm:flex sm:justify-around md:flex md:justify-around sm:bg-white sm:w-full sm:items-center sm:h-[12vh] sm:gap-[20.8rem] md:bg-white md:w-full md:items-center md:h-[12vh] md:gap-[30rem] sm:fixed sm:top-0 sm:z-10 md:fixed md:top-0 md:z-10'>
+        <div className='hidden sm:flex sm:justify-around md:flex md:justify-around sm:bg-white sm:w-full sm:items-center sm:h-[12vh] sm:gap-[6rem] md:bg-white md:w-full md:items-center md:h-[12vh] md:gap-[30rem] sm:fixed sm:top-0 sm:z-10 md:fixed md:top-0 md:z-10'>
           <div className='flex gap-7'>
             {/* <div className='text-xl'><RxHamburgerMenu /></div> */}
             <div><Hamburger /></div>
@@ -41,7 +40,7 @@ const AdminSummary = () => {
                 <div className='rounded-full bg-white text-black text-[0.6rem] px-[0.2rem] py-[0.33rem] absolute top-0 left-[3.4rem]'>+99</div>
               </div>
             </div>
-            <div className='hidden sm:grid sm:grid-cols-6 sm:text-gray-400 sm:gap-[5.7rem] md:grid md:grid-cols-6 md:text-gray-400 md:gap-[5.7rem]'>
+            <div className='hidden sm:grid sm:grid-cols-6 sm:text-gray-400 sm:gap-[3.4rem] md:grid md:grid-cols-6 md:text-gray-400 md:gap-[6rem]'>
               <div className='col-span-3'>Custom</div>
               <div className='col-span-3'>Custom</div>
             </div>
@@ -62,12 +61,12 @@ const AdminSummary = () => {
         </div>
         <div className='grid grid-cols-12 mt-8 gap-4 mr-[4rem] sm:mr-5 md:mr-5 md:pl-6 sm:grid-cols-1'>
           <div className='col-span-6 border pt-5 pl-4 pb-5 rounded-md'>
-            <div className='flex gap-[16.9rem] xl:gap-[9.5rem] lg:gap-[6.2rem] md:gap-[13.5rem] sm:gap-[25.5rem]'>
+            <div className='flex gap-[16.9rem] xl:gap-[9.5rem] lg:gap-[6.2rem] md:gap-[13.5rem] sm:gap-[11.5rem]'>
               <div className='text-sm'>Group info</div>
               <div className='pt-[0.1rem] text-lg'><IoMdNotificationsOutline /></div>
             </div>
             <div className='text-[0.65rem] text-gray-400'>13 students in the group</div>
-            <div className='flex gap-[10.2rem] xl:gap-[3.7rem] lg:gap-[0.7rem] md:gap-[7.5rem] sm:gap-[19.5rem] bg-orange-400 text-white pt-5 pl-4 pb-5 mr-4 mt-4 mb-4 rounded-md'>
+            <div className='flex gap-[10.2rem] xl:gap-[3.7rem] lg:gap-[0.7rem] md:gap-[7.5rem] sm:gap-[5.7rem] bg-orange-400 text-white pt-5 pl-4 pb-5 mr-4 mt-4 mb-4 rounded-md'>
               <div>
                 <div className='text-sm'>Group homework</div>
                 <div className='text-[0.65rem] text-gray-200 font-light pt-2'>4 students from your group <br /> online now</div>
@@ -79,7 +78,7 @@ const AdminSummary = () => {
           </div>
           <div className='col-span-6 border pt-5 pb-5 rounded-md'>
             <div className='text-sm pl-4'>Overall progress</div>
-            <div className='flex gap-[14.2rem] pl-4 pt-7 xl:gap-[7rem] lg:gap-[3.5rem] md:gap-[10rem] sm:gap-[22.5rem]'>
+            <div className='flex gap-[14.2rem] pl-4 pt-7 xl:gap-[7rem] lg:gap-[3.5rem] md:gap-[10rem] sm:gap-[8.8rem]'>
               <div>Germany for <br/> beginners</div>
               <div className='border rounded-full w-10 h-10 shadow-md'>
                 <img src={profileFive} className='w-6 pt-[0.4rem] ml-[0.4rem]'/>
@@ -95,7 +94,7 @@ const AdminSummary = () => {
           </div>
         </div>
         <div className='grid grid-cols-12 mt-8 gap-4 mr-[4rem] sm:mr-5 md:mr-5 md:pl-6 sm:grid-cols-1'>
-          <div className='col-span-6 border pt-5 pl-4 pb-5 sm:pt-7 sm:pl-6 sm:pb-7 rounded-md flex gap-[11.5rem] xl:gap-[4.5rem] lg:gap-[1.4rem] md:gap-[8.4rem] sm:gap-[19.9rem]'>
+          <div className='col-span-6 border pt-5 pl-4 pb-5 sm:pt-7 sm:pl-6 sm:pb-7 rounded-md flex gap-[11.5rem] xl:gap-[4.5rem] lg:gap-[1.4rem] md:gap-[8.4rem] sm:gap-[6rem]'>
               <div className='flex gap-3'>
               <div className='border rounded-full w-10 h-10 shadow-md'>
                 <div className='text-xl pt-[0.5rem] ml-[0.6rem] text-blue-700'>
@@ -109,7 +108,7 @@ const AdminSummary = () => {
               </div>
               <div className='text-sm mt-3 text-blue-700 cursor-pointer'><IoIosArrowForward /></div>
           </div>
-          <div className='col-span-6 border pt-5 pl-4 pb-5 sm:pt-7 sm:pl-6 sm:pb-7 rounded-md flex gap-[13rem] lg:gap-[2.7rem] xl:gap-[6rem] md:gap-[9.8rem] sm:gap-[21.2rem]'>
+          <div className='col-span-6 border pt-5 pl-4 pb-5 sm:pt-7 sm:pl-6 sm:pb-7 rounded-md flex gap-[13rem] lg:gap-[2.7rem] xl:gap-[6rem] md:gap-[9.8rem] sm:gap-[7.3rem]'>
             <div className='flex gap-3'>
               <div className='border rounded-full w-10 h-10 shadow-md'>
                 <div className='text-xl pt-[0.54rem] ml-[0.55rem] text-blue-700'>

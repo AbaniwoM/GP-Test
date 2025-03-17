@@ -76,7 +76,7 @@ const Hamburger = () => {
         <div className='border border-gray-400 w-[82%] ml-[0.8rem] mt-5'></div>
         <div>
             <div className='flex gap-3 justify-center bg-gradient-to-r from-violet-800 to-violet-800 rounded-md mt-5 py-8 mx-3 w-[83%]'>
-                <div className='rounded-full mt-1 bg-yellow-400 w-[11%] h-[1.5rem] text-black text-xs text-center pt-1'>DW</div>
+                <div className='rounded-full mt-1 bg-yellow-400 w-[14%] h-[1.5rem] text-black text-xs text-center pt-1'>DW</div>
                 <div className=''>
                     <div className='font-light text-xs'>Dlex Designs</div>
                     <div className="text-xs text-gray-400 font-light">general team</div>
@@ -120,7 +120,7 @@ const Hamburger = () => {
                 <span className='text-sm font-light'>Logout</span>
             </NavLink>
             <div className='bg-gradient-to-r from-violet-800 to-violet-800 rounded-md py-8 w-[83%] mx-3 mt-[17rem]'>
-                <div className="flex gap-[5rem] justify-center">
+                <div className="flex justify-center">
                 <div className=''>
                     <div className='font-light text-sm'>Storage</div>
                     <div className='flex gap-1 text-[0.6rem]'>3.4GB<div className="text-[0.6rem] text-gray-400 font-light">of 15GB</div></div>

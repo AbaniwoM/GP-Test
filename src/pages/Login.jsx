@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
+import { NavLink } from 'react-router-dom'
 import googleImg from "../assets/google_13170545.png";
 
 const Login = () => {
@@ -7,7 +7,6 @@ const Login = () => {
     // const [password, setPassword] = useState('')
     // const [error, setError] = useState(null)
     // const {login} = useAuth()
-    const navigate = useNavigate();
 
     // const handleSubmit = async (e) => {
     //     e.preventDefault()
@@ -69,9 +68,9 @@ const Login = () => {
                   <span className="ml-2 text-gray-700 text-sm">Keep me logged in</span>
                </label>
             </div>
-            <div className='mb-3'>
-            <button className="w-full bg-gradient-to-r from-blue-900 to-blue-900 text-white py-2 rounded-md" onClick={() => navigate('admin-dashboard')}>Login</button>
-            </div>
+            <NavLink to="/admin-dashboard" className='mb-3'>
+                <button className="w-full bg-gradient-to-r from-blue-900 to-blue-900 text-white py-2 rounded-md">Login</button>
+            </NavLink>
         </form>
         </div>
     </div>

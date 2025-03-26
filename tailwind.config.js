@@ -21,6 +21,8 @@ export default {
 
       'spxx': {'min': '320px', 'max': '320px'},
 
+      'spxxx': {'min': '375px', 'max': '375px'},
+
       'sp': {'min': '360px', 'max': '360px'},
 
       'spx': {'min': '428px', 'max': '428px'}

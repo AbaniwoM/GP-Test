@@ -18,6 +18,12 @@ export default {
 
       'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
+
+      'spxx': {'min': '320px', 'max': '320px'},
+
+      'sp': {'min': '360px', 'max': '360px'},
+
+      'spx': {'min': '428px', 'max': '428px'}
     },
   },
   plugins: [],
